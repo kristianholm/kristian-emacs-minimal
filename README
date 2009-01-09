@@ -2,14 +2,17 @@
 kristian-emacs-minimal is my (kristian) attempt to make a portable GNU
 Emacs repo which can be used on all computers I currently need an
 awesome editor on. Which is all running Arch Linux at moment, but I
-will attempt to NOT make it bound to either Arch or Linux. 
+will attempt to NOT make it bound to either Arch or Linux.
+
+Look at http://www.gnu.org/software/emacs/ to learn about GNU Emacs
+and the GNU Project.
 
 This repo is the first git, or any other version control repository
 for that matter, I have ever made. In addition to learn Emacs and
 Emacs lisp, I hope to develop an understanding of git and getting into
 good habits while working with a VCS. (I'm Norwegian, so if my english
 don't make sense to you, that's the reason. A spellchecker can correct
-misspelled words, but don't make you write more intelligent
+misspelled words, but don't help you write more intelligent
 sentences).
 
 Phil Hagelberg have written and published emacs-starter-kit on github
@@ -17,5 +20,16 @@ Phil Hagelberg have written and published emacs-starter-kit on github
 which is my inspiration for publishing my own. Not likely that my will
 be as popular as Phil's. But if you like how I do stuff, feel free to
 clone the repo and contribute.
+
+You may want to look at a screencast done by Geoffrey Grosenbach which
+can be found at http://peepcode.com/products/meet-emacs, in which he
+introduces Emacs and takes the viewers on a tour of
+emacs-starter-kit.
+
+But the premier place find documentation is within GNU Emacs
+itself. Once you have installed and started emacs, press "ctrl" and "h",
+release both keys and then press "ctrl" and "a". On the screen you can
+click on either the link "Emacs Tutorial" or "Emacs Guided Tour" to
+learn more.
 
 Happy hacking!
