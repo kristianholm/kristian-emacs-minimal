@@ -1,0 +1,21 @@
+
+kristian-emacs-minimal is my (kristian) attempt to make a portable GNU
+Emacs repo which can be used on all computers I currently need an
+awesome editor on. Which is all running Arch Linux at moment, but I
+will attempt to NOT make it bound to either Arch or Linux. 
+
+This repo is the first git, or any other version control repository
+for that matter, I have ever made. In addition to learn Emacs and
+Emacs lisp, I hope to develop an understanding of git and getting into
+good habits while working with a VCS. (I'm Norwegian, so if my english
+don't make sense to you, that's the reason. A spellchecker can correct
+misspelled words, but don't make you write more intelligent
+sentences).
+
+Phil Hagelberg have written and published emacs-starter-kit on github
+(see http://github.com/technomancy/emacs-starter-kit/tree/master)
+which is my inspiration for publishing my own. Not likely that my will
+be as popular as Phil's. But if you like how I do stuff, feel free to
+clone the repo and contribute.
+
+Happy hacking!
