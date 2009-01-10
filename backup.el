@@ -9,16 +9,21 @@
 ;; defines the variable that holds the path to the backup dir
 ;; by default within the git project folder
 (defvar backup-dir 
-  (expand-file-name (concat dotfiles-dir "emacsbackup")))
+  (expand-file-name (concat dotfiles-dir "emacsbackup/")))
 ;; fill in your own backup dir if you want
 ;(defvar backup-dir (expand-file-name "~/backup"))
 
-
 (defvar autosave-dir 
-  (expand-file-name (concat dotfiles-dir "emacsautosave")))
+  (expand-file-name (concat dotfiles-dir "emacsautosave/")))
 
 (setq backup-directory-alist (list (cons ".*" backup-dir)))
 (setq auto-save-list-file-prefix autosave-dir)
 (setq auto-save-file-name-transforms `((".*", autosave-dir t)))
+
+;; save after so many keystrokes
+(setq auto-save-interval 150)
+
+;; save after so many seconds of idle time
+(setq auto-save-timeout 15)
 
 (provide 'backup)
