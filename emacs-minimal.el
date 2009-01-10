@@ -1,6 +1,18 @@
 ;; initializing file for emacs-minimal
 ;;
-;; the point of emacs-minimal
+;; the point of emacs-minimal is to provide a solid
+;; foundation for further expansion and customization 
+;; of Emacs. 
+;;
+;; emacs-minimal sets up an easy way to load your 
+;; own customize files and make backup of the files
+;; you edit.
+;;
+;; Emacs is a very pleasant editor to work with as long
+;; as you learn Emacs on its terms, and don't expect 
+;; it to ajust to your needs without you telling it how 
+;; to change.
+
 
 ;; set the loadpath to add files from the directory
 ;; where the initial file live.
