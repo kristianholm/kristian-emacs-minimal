@@ -1,6 +1,6 @@
 ;; initializing file for emacs-minimal
 ;;
-;;
+;; the point of emacs-minimal
 
 ;; set the loadpath to add files from the directory
 ;; where the initial file live.
@@ -22,5 +22,13 @@
 (if (file-exists-p user-specific-config) (load user-specific-config))
 (if (file-exists-p user-specific-dir)
   (mapc #'load (directory-files user-specific-dir nil ".*el$")))
+
+;; makes custom write to an seperate file, and loads
+;; it on startup
+(setq custom-file (concat dotfiles-dir "/custom.el"))
+(load custom-file 'noerror)
+
+;; backup is important
+(require 'backup)
 
 ;; no more content in emacs-minimal.el
