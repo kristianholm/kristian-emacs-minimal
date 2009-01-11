@@ -14,11 +14,20 @@
 ;(defvar backup-dir (expand-file-name "~/backup"))
 
 (defvar autosave-dir 
-  (expand-file-name (concat dotfiles-dir "emacsautosave/")))
+  (expand-file-name (concat dotfiles-dir "emacsautosave")))
 
 (setq backup-directory-alist (list (cons ".*" backup-dir)))
 (setq auto-save-list-file-prefix autosave-dir)
 (setq auto-save-file-name-transforms `((".*", autosave-dir t)))
+
+;; Autosave
+;; save current buffer when visiting another file
+(defun save-buffer-if-visiting-file (&optional args)
+  "Save the buffer only if it is visiting a file"
+  (interactive)
+  (if (buffer-file-name)
+      (save-buffer args)))
+(add-hook 'auto-save-hook 'save-buffer-if-visiting-file)
 
 ;; save after so many keystrokes
 (setq auto-save-interval 150)
