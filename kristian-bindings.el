@@ -17,4 +17,7 @@
 ;; have open. Very handy if you're not quite sure what your looking for.
 (global-set-key (kbd "<C-tab>") 'bury-buffer)
 
+;; let me have access to an eshell
+(global-set-key (kbd "C-c m") 'eshell)
+
 (provide 'kristian-bindings)
