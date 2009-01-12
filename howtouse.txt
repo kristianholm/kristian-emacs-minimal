@@ -1,4 +1,5 @@
 
 how to use emacs-minimal
 
-After you m
+After you download and install GNU Emacs, can also be done using git,
+there is just to extend this Emacs as you want
