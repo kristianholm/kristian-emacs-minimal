@@ -21,5 +21,8 @@
 ;; For a simple person like me, an "y" or a "n" is all I need.
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;;;; Load my user (kristian) specific elisp-files
 ;; load my keybindings
 (require 'kristian-bindings)
+;; load dired-settings
+(require 'kristian-dired-settings)
