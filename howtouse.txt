@@ -1,8 +1,0 @@
-
-
-
-how to use emacs-minimal
-
-After you download and install GNU Emacs, which can also be done using
-git, there is just to extend to your hearts contents. 
-
