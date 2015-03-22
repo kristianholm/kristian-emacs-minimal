@@ -1,11 +1,5 @@
 ;;; kristian.el --- init file for the user kristian
 ;;
-;; This file will be loaded by emacs-minimal.el, because
-;; on the system I am writing this on "kristian" is the
-;; user that is logged in.
-;;
-;; On your computer, make a file with the same name as your 
-;; username and the ending .el, like this "<username>.el"
 
 ;; I don't like that the cursor is blinking
 (blink-cursor-mode 0)
