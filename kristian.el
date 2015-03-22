@@ -38,3 +38,7 @@
 (global-set-key "\C-c\C-k" 'kill-region)
 (global-set-key "\C-x\C-k" 'kill-region)
 
+;; Dired settings
+; Dired copy and delete non-empty folders
+(setq dired-recursive-copies 'always)
+(setq dired-recursive-deletes 'top)
