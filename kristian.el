@@ -9,6 +9,9 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
+;; don't display character number
+(column-number-mode -1)
+
 ;; When you do something that Emacs needs you to confirm, like 
 ;; closing an unsaved file, Emacs wants you to spell the whole
 ;; word "yes" or "no", depending on what action you want.
